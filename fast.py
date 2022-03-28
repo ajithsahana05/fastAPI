@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
  
 app = FastAPI()
  
-@app.get("/sample/{name}")
+@app.get("/sample1/{name}")
 def root (name):
    return {"message": f"Hello {name}"} 
 
