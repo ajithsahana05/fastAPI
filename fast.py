@@ -4,7 +4,7 @@ app = FastAPI()
  
 @app.get("/sample/{name}")
 def root (name):
-   return {"message": f"Hello {name}"} 
+   return {"status":"success","message": f"Hello {name}"} 
 
 
 @app.post("/signup")
